@@ -10,4 +10,4 @@
 • | 📁 HTML
 • | 📁 CSS
 
-• |💻 Fiz pequenas animação de movimentos com CSS "Fiz no intuito de Pratica"
+• |💻 Fiz animação com CSS Tambem Junto Fiz Uma Maquina de Escrever "Fiz no intuito de Pratica"
