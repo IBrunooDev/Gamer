@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* MAQUINA DE ESCREVER */
+.titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: monospace;
+    border-right: 4px solid;
+    width: 17ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(17), blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+
+    }
+}
+
+/* MAQUINA DE ESCREVER */
+
+/* MENU DO SITE  */
+#menu {
+    list-style: none;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#menu li a:hover {
+    color: rgb(13, 0, 255);
+    transform: translateX(10px);
+}
+
+.container {
+    margin-top: 45px;
+}
+
+.imgsetup {
+    display: flex;
+    justify-content: center;
+}
+
+/* MENU DO SITE  */
+
+.pc-gamer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 260px;
+
+    /* ANIMAÇÃO CSS IMG */
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
